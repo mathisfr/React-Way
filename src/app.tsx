@@ -5,7 +5,7 @@ import Home from './pages/home.tsx';
 import Navbar from './componants/navbar.jsx'
 
 import NotesTemplate from './pages/notes-template.tsx';
-import Composant from './exemples/component/simple.tsx';
+import Composant from './exemples/component/simpleComponent.tsx';
 
 const router = createHashRouter([
         {
@@ -24,12 +24,7 @@ const router = createHashRouter([
                     children:[
                         {
                             path:"component",
-                            children:[
-                                {
-                                    path:"simple",
-                                    Component:Composant,
-                                }
-                            ]
+                            Component:Composant,
                         }
                     ]
                 }

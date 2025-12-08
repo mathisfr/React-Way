@@ -24,10 +24,7 @@ export default function Navbar(){
                     Exemples
                     <ul className="navbar-drop-content">
                         <li className="navbar-drop">
-                            Component
-                            <ul className="navbar-drop-content">
-                                <NavLink to="/exemple/component/simple" end>Classic</NavLink>
-                            </ul>
+                            <NavLink to="/exemple/component" end>Component</NavLink>
                         </li>
                     </ul>
                 </li>

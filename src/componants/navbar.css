@@ -11,15 +11,25 @@
     z-index: 100;
 }
 
-.navbar-drop{
+ .navbar-drop{
+    position: relative;
+}
+
+#navbar > .navbar-drop{
     position: relative;
     margin-left: 5vw;
     margin-left: 5vw;
     font-weight: bold;
 }
 
-.navbar-drop:hover .navbar-drop-content{
+.navbar-drop:hover > .navbar-drop-content{
     display: block;
+}
+
+.navbar-drop-content .navbar-drop:hover > .navbar-drop-content {
+    display: block;
+    left: 100%;
+    top: 0;
 }
 
 .navbar-drop-content{

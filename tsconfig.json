@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "target": "ES2022",
+    "module": "es2015",
+    "moduleResolution": "bundler",
+    "target": "es2015",
     "noImplicitAny": false,
     "removeComments": true,
     "preserveConstEnums": true,
