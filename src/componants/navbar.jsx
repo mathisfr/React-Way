@@ -18,6 +18,9 @@ export default function Navbar(){
                         <li>
                             <NavLink to="/note/1" end>Reprise du CSS</NavLink>
                         </li>
+                        <li>
+                            <NavLink to="/note/2" end>Component</NavLink>
+                        </li>
                     </ul>
                 </li>
                 <li className="navbar-drop">

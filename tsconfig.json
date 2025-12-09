@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "module": "es2015",
+    "module": "esnext",
     "moduleResolution": "bundler",
     "target": "es2015",
     "noImplicitAny": false,
