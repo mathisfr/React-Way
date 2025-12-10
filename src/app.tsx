@@ -6,7 +6,7 @@ import Navbar from './componants/navbar.jsx'
 
 import NotesTemplate from './pages/notes-template.tsx';
 import Composant from './exemples/component/simpleComponent.tsx';
-
+import Interactivity from './exemples/interactivity/simpleInteractivity.tsx';
 const router = createHashRouter([
         {
             Component: Navbar,
@@ -25,9 +25,13 @@ const router = createHashRouter([
                         {
                             path:"component",
                             Component:Composant,
+                        },
+                        {
+                            path:"interactivity",
+                            Component:Interactivity,
                         }
                     ]
-                }
+                },
             ]
         }
     ],
