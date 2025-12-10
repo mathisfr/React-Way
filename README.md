@@ -37,9 +37,14 @@ git clone <projet>
 npm install
 ```
 
-### Lancer le projet
+### Lancer le projet en mode dev
 ```
 npm run start
+```
+
+### Build le projet
+```
+npm run build
 ```
 
 ## Technologies utilisées
