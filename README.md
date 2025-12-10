@@ -12,32 +12,6 @@ Il a été construit manuellement pour comprendre en profondeur le fonctionnemen
 - Chargement de fichiers Markdown dans des templates React
 - Configuration Rollup (développement et production)
 
-## Structure du projet
-  
-```
-babel.config.json
-eslint.config.js
-package.json
-package-lock.json
-rollup.config.mjs
-tsconfig.json
-build/
-  bundle.js
-  index.html
-  style.css
-src/
-  app.css
-  app.tsx
-  index.tsx
-  composants/
-  exemples/
-  notes/
-  pages/
-  router/
-types/
-  markdown.d.ts
-```
-
 ## Scripts disponibles
 
 ### Développement
