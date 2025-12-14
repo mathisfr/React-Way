@@ -1,0 +1,16 @@
+#notes-template{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#notes-template-box{
+    color: var(--second-text-color);
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    max-width: 80ch;
+    padding: 10px 5ch 10px 5ch;
+    display: flex;
+    flex-direction: column;
+}

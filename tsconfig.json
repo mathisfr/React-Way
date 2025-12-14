@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "es2015",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "allowJs":true,
+
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "types/**/*.d.ts"],
+  "exclude": [
+    "**/*.spec.ts",
+    "lib/**/*",
+    "node_modules/**/*",
+  ]
+}

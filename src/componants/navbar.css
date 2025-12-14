@@ -1,0 +1,43 @@
+#navbar{
+    display: flex;
+    flex-direction:row;
+    background-color: var(--main-container-color);
+    justify-content: flex-start;
+    height: min-content;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
+ .navbar-drop{
+    position: relative;
+}
+
+#navbar > .navbar-drop{
+    position: relative;
+    margin-left: 5vw;
+    margin-left: 5vw;
+    font-weight: bold;
+}
+
+.navbar-drop:hover > .navbar-drop-content{
+    display: block;
+}
+
+.navbar-drop-content .navbar-drop:hover > .navbar-drop-content {
+    display: block;
+    left: 100%;
+    top: 0;
+}
+
+.navbar-drop-content{
+    display: none;
+    position: absolute;
+    padding: 0;
+    background-color: var(--second-container-color);
+    width: 150px;
+    font-weight: normal;
+}
+

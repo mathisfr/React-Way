@@ -1,0 +1,19 @@
+.userCard{
+    background-color: var(--main-container-color);
+    color: var(--main-text-color);
+    padding: 1vh 5vw 1vh 5vw;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.userCardContent{
+    align-self: center;
+}
+
+.userCardFooter{
+    font-style: italic;
+    text-shadow:    5px 5px var(--second-container-color),
+                    4px 4px var(--second-container-color);
+}
